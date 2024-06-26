@@ -711,6 +711,15 @@ mappings = {
             "entity_category": "diagnostic"
         }
     },
+
+    "message_count": {
+        "device_type": "sensor",
+        "object_suffix": "motion",
+        "config": {
+            "device_class": "motion",
+            "name": "Smoke_GS558",
+        }
+    },    
 }
 
 # Use secret_knock to trigger device automations for Honeywell ActivLink
