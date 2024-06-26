@@ -712,11 +712,12 @@ mappings = {
         }
     },
 
-    "code": {
+    "unit": {
         "device_type": "sensor",
         "object_suffix": "motion",
         "config": {
             "device_class": "motion",
+            "value_template": "{{ value|int }}",
             "name": "Smoke_GS558",
         }
     },    
