@@ -712,7 +712,7 @@ mappings = {
         }
     },
 
-    "message_count": {
+    "code": {
         "device_type": "sensor",
         "object_suffix": "motion",
         "config": {
